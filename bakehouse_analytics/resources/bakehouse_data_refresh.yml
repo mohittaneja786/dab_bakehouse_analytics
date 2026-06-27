@@ -22,11 +22,11 @@ resources:
           default: ${var.schema}
 
       tasks:
-        - task_key: transactions_summary
+        - task_key: customer_360
           notebook_task:
             notebook_path: ../src/customer_360.ipynb
 
-        - task_key: customer_360
+        - task_key: transactions_summary
           notebook_task:
             notebook_path: ../src/transactions_summary.ipynb
 
