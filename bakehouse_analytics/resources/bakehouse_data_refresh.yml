@@ -25,10 +25,13 @@ resources:
         - task_key: customer_360
           notebook_task:
             notebook_path: ../src/customer_360.ipynb
+<<<<<<< Updated upstream
 
         - task_key: transactions_summary
           notebook_task:
             notebook_path: ../src/transactions_summary.ipynb
+=======
+>>>>>>> Stashed changes
 
       environments:
         - environment_key: default
