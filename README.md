@@ -41,9 +41,13 @@ The project follows Infrastructure-as-Code (IaC) principles, enabling version-co
 
 .
 ├── databricks.yml # Main bundle configuration
+
 ├── resources/ # Job, pipeline and workflow definitions
+
 ├── src/ # Source code and notebooks
+
 ├── tests/ # Test scripts
+
 └── README.md
 
 
